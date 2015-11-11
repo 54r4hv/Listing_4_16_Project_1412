@@ -59,50 +59,9 @@ The random upper case letter of the day is: E
 
 ##Command Prompt
 
+
+
 ```
-Microsoft Windows [Version 10.0.10240]
-(c) 2015 Microsoft Corporation. All rights reserved.
-
-C:\Users\denise>cd desktop
-
-C:\Users\denise\Desktop>cd workspace
-
-C:\Users\denise\Desktop\workspace>cd RandomCharacter1
-
-C:\Users\denise\Desktop\workspace\RandomCharacter1>echo # Listing_4_16_Project_1412 >> README.md
-
-C:\Users\denise\Desktop\workspace\RandomCharacter1>git init
-Initialized empty Git repository in C:/Users/denise/Desktop/workspace/RandomCharacter1/.git/
-
-C:\Users\denise\Desktop\workspace\RandomCharacter1>git add README.md
-
-C:\Users\denise\Desktop\workspace\RandomCharacter1>git commit -m "first commit"
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: unable to auto-detect email address (got 'denise@denise-PC.(none)')
-
-C:\Users\denise\Desktop\workspace\RandomCharacter1>git config user.name "Sarah VanLeeuwen"
-
-C:\Users\denise\Desktop\workspace\RandomCharacter1>git config user.email "vanleeuwens@student.swosu.edu"
-
-C:\Users\denise\Desktop\workspace\RandomCharacter1>
-
-C:\Users\denise\Desktop\workspace\RandomCharacter1>git commit -m "first commit"
-[master (root-commit) 9314f97] first commit
- 1 file changed, 1 insertion(+)
- create mode 100644 README.md
-
-C:\Users\denise\Desktop\workspace\RandomCharacter1>git remote add origin https://github.com/54r4hv/Listing_4_16_Project_1412.git
-
 C:\Users\denise\Desktop\workspace\RandomCharacter1>git push -u origin master
 Username for 'https://github.com': 54r4hv
 Password for 'https://54r4hv@github.com':
@@ -268,9 +227,141 @@ Total 4 (delta 2), reused 0 (delta 0)
 To https://github.com/54r4hv/Listing_4_16_Project_1412.git
    45738f9..caf085f  master -> master
 
-C:\Users\denise\Desktop\workspace\RandomCharacter1>
+C:\Users\denise\Desktop\workspace\RandomCharacter1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 5A0A-2F66
 
+ Directory of C:\Users\denise\Desktop\workspace\RandomCharacter1
+
+11/10/2015  10:53 PM    <DIR>          .
+11/10/2015  10:53 PM    <DIR>          ..
+11/10/2015  07:33 PM               232 .classpath
+11/10/2015  07:33 PM               392 .project
+11/10/2015  07:38 PM    <DIR>          bin
+11/10/2015  10:51 PM                30 README.md
+11/10/2015  07:38 PM    <DIR>          src
+               3 File(s)            654 bytes
+               4 Dir(s)  95,364,829,184 bytes free
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>J:\COMSC_1033_Workspace\Listing_4_16_project>echo # Listing_4_16_project >> README.md
+The system cannot find the drive specified.
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git add .
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git commit -m "uhmmmmm"
+[master 75022cf] uhmmmmm
+ 1 file changed, 272 insertions(+)
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.28 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/54r4hv/Listing_4_16_Project_1412.git
+   caf085f..75022cf  master -> master
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git add .
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git commit -m "errrrmmmmm"
+[master 97ee89d] errrrmmmmm
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 297 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/54r4hv/Listing_4_16_Project_1412.git
+   75022cf..97ee89d  master -> master
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git add .
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git add .
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git commit -m "omg"
+[master 484504b] omg
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 54r4hv
+Password for 'https://54r4hv@github.com':
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 307 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/54r4hv/Listing_4_16_Project_1412.git
+   97ee89d..484504b  master -> master
+
+C:\Users\denise\Desktop\workspace\RandomCharacter1>
 ```
+
 
 ##Report
 
