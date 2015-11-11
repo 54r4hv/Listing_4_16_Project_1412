@@ -6,7 +6,8 @@ Working on Listing 4.16 to generate a random character using Math.random().
 
 ##Code
 
-``` public class RandomCharacter {
+``` java 
+public class RandomCharacter {
     public static void main(String[] args) {
         // Call a method to generate a random number in the range of a character.
         int randomUpperCaseLetterNumber = makeRandomUpperLetter();
@@ -33,7 +34,9 @@ Working on Listing 4.16 to generate a random character using Math.random().
         
         
     }
-} ```
+} 
+
+```
 
 
 ##Console Output
