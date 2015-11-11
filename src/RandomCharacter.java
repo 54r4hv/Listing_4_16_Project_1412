@@ -21,5 +21,10 @@ public class RandomCharacter {
         int randomUpperCaseLetterNumber = lowerLimit + (int)(Math.random()*Range);
         System.out.println(randomUpperCaseLetterNumber);
         return randomUpperCaseLetterNumber;
+        
+        
+        
+        
+        
     }
 }
