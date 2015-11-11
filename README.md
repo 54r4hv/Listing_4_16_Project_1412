@@ -57,7 +57,7 @@ The random upper case letter of the day is: E
 ```
 
 
-##Command Prompt
+##Command Prompt History
 
 
 
@@ -365,3 +365,8 @@ C:\Users\denise\Desktop\workspace\RandomCharacter1>
 
 ##Report
 
+Became more famliar with git and how to utilize it. Became famliar with markdowns to organize 
+my project code and other elements of my report. Slowly but surely learning the how to work
+on different branches but it's pretty confusing. I didn't actually do any work on the "dev" branch
+in this assignment. I kind of just made one and didn't do anything on it for fear of messing up my
+whole assignment. 
